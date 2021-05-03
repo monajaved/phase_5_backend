@@ -35,7 +35,9 @@ class JournalsController < ApplicationController
 
   # DELETE /journals/1
   def destroy
+    # binding.pryexit
     @journal.destroy
+    render json: @journal
   end
 
   private
@@ -46,6 +48,6 @@ class JournalsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def journal_params
-      params.require(:journal).permit(:title, :content)
+      params.require(:journal).permit(:date, :content, :locationId)
     end
 end
