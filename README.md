@@ -1,24 +1,12 @@
-# README
+# Frontend URL
+https://github.com/monajaved/phase_5_project
+Fork and clone the above link using git@github.com:monajaved/phase_5_project.git
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Run bundle install to install dependencies
 
-Things you may want to cover:
+# Run rails db:migrate to get the database in the schema
 
-* Ruby version
+# Fork and clone this application using the following link 
+git@github.com:monajaved/phase_5_backend.git
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# run rails server to access the API 
